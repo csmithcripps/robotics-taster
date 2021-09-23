@@ -7,10 +7,9 @@
         "id": "909511bb7f28adc0",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "index.md",
-            "mode": "source"
+            "file": "Attachments/P1080377.jpg"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Attachments/P1080377.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +87,7 @@
   },
   "active": "909511bb7f28adc0",
   "lastOpenFiles": [
+    "Attachments/P1080377.jpg",
     "index.md",
     "MATLAB-README.md",
     "Controlling the Robot.md",
@@ -96,7 +96,6 @@
     "Map Assisted Localisation and Navigation.md",
     "Parts/Controlling the Robot.md",
     "Directory.md",
-    "Parts/9. Map Assisted Localisation and Navigation.md",
-    "Parts/5. Setup.md"
+    "Parts/9. Map Assisted Localisation and Navigation.md"
   ]
 }
