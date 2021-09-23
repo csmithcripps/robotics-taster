@@ -1,6 +1,5 @@
 # Robotic Navigation and Vision Prereading
-|               Quick Links               |
-|:---------------------------------------:|
+|               **Quick Links**            |
 |         [The Task](The_Task.md)         |
 | [Matlab Refresher](Matlab_Refresher.md) |
 |       [Robot Code](Robot_Code.md)       |
