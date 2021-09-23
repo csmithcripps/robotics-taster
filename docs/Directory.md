@@ -1,4 +1,3 @@
-# Robotic Navigation and Vision Prereading
 #### [The Task](Parts/2.%20The%20Task.md)
 #### [Matlab Refresher](Parts/3.%20Matlab%20Refresher.md)
 #### [Controlling the Robot](Parts/4.%20Controlling%20the%20Robot.md)

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Parts/9. Map Assisted Localisation and Navigation.md",
+            "file": "Directory.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Parts/9. Map Assisted Localisation and Navigation.md",
+                "file": "Directory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,14 @@
   },
   "active": "93459be858cf7fbb",
   "lastOpenFiles": [
+    "Directory.md",
+    "index.md",
+    "Parts/1. Peter Corke Presentation.md",
     "Parts/9. Map Assisted Localisation and Navigation.md",
     "Parts/5. Setup.md",
     "Parts/4. Controlling the Robot.md",
     "Parts/3. Matlab Refresher.md",
     "Parts/2. The Task.md",
-    "index.md",
     "Parts/9. EKF-SLAM.md"
   ]
 }
