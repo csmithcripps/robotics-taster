@@ -3,5 +3,6 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "./attachments",
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showUnsupportedFiles": true
 }
