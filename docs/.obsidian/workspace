@@ -7,9 +7,10 @@
         "id": "909511bb7f28adc0",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Attachments/P1080377.jpg"
+            "file": "index.md",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Attachments/P1080377.jpg",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +88,8 @@
   },
   "active": "909511bb7f28adc0",
   "lastOpenFiles": [
-    "Attachments/P1080377.jpg",
     "index.md",
+    "Attachments/P1080377.jpg",
     "MATLAB-README.md",
     "Controlling the Robot.md",
     "The Task.md",
