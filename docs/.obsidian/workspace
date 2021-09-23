@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Robot_Code.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robot_Code.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "909511bb7f28adc0",
   "lastOpenFiles": [
+    "index.md",
+    "MATLAB-README.md",
     "Controlling the Robot.md",
     "The Task.md",
     "Matlab Refresher.md",
@@ -95,8 +97,6 @@
     "Parts/Controlling the Robot.md",
     "Directory.md",
     "Parts/9. Map Assisted Localisation and Navigation.md",
-    "Parts/5. Setup.md",
-    "Parts/3. Matlab Refresher.md",
-    "Parts/4. Controlling the Robot.md"
+    "Parts/5. Setup.md"
   ]
 }
