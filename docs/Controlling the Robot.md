@@ -1,6 +1,6 @@
 # Controlling the Robot
 
-[[Directory]]
+[Directory](Directory.md)
 
 ---
 

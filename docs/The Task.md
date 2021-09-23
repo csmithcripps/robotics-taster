@@ -1,6 +1,6 @@
 # The Task
 
-[[Directory]]
+[Directory](Directory.md)
 
 ---
 
@@ -12,7 +12,7 @@ Navigate to the centre of a set of markers
 
 ## Map
 
-![[Pasted image 20210921024101.png]]
+![Pasted image 20210921024101](Attachments/Pasted%20image%2020210921024101.png)
 
 ---
 

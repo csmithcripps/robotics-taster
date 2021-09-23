@@ -1,6 +1,6 @@
 # Map Assisted Localisation and Navigation
 
-[[Directory]]
+[Directory](Directory.md)
 
 ---
 

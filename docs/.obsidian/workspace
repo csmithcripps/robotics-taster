@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "93459be858cf7fbb",
+        "id": "909511bb7f28adc0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Directory.md",
+            "file": "Controlling the Robot.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Directory.md",
+                "file": "Controlling the Robot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,16 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "93459be858cf7fbb",
+  "active": "909511bb7f28adc0",
   "lastOpenFiles": [
+    "Parts/Controlling the Robot.md",
     "Directory.md",
-    "index.md",
-    "Parts/1. Peter Corke Presentation.md",
     "Parts/9. Map Assisted Localisation and Navigation.md",
     "Parts/5. Setup.md",
-    "Parts/4. Controlling the Robot.md",
     "Parts/3. Matlab Refresher.md",
+    "Parts/4. Controlling the Robot.md",
     "Parts/2. The Task.md",
-    "Parts/9. EKF-SLAM.md"
+    "Parts/Attachments/Pasted image 20210921024101.png",
+    "Parts/Attachments/Pasted image 20210920074829.png",
+    "Parts/Attachments/Pasted image 20210920074815.png"
   ]
 }
