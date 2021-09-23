@@ -25,10 +25,10 @@ Using Kalman Filter the robot views the world as a set of probabilities because 
 ---
 
 Two important variables
-$$\mu = \begin{bmatrix}x\\m\end{bmatrix}$$
+$`\mu = \begin{bmatrix}x\\m\end{bmatrix}`$
  - Which is our map of the world (x being our understanding of the robot, and m being the known locations of the landmarks)
 
-$$\Sigma = \begin{bmatrix}...\\...\end{bmatrix}$$
+$`\Sigma = \begin{bmatrix}...\\...\end{bmatrix}`$
 - A 2D matrix of our uncertainties
 
 ---

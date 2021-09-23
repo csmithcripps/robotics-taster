@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "The_Task.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "The_Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "909511bb7f28adc0",
   "lastOpenFiles": [
+    "The_Task.md",
     "index.md",
     "Attachments/P1080377.jpg",
     "MATLAB-README.md",
@@ -96,7 +97,6 @@
     "Matlab Refresher.md",
     "Map Assisted Localisation and Navigation.md",
     "Parts/Controlling the Robot.md",
-    "Directory.md",
-    "Parts/9. Map Assisted Localisation and Navigation.md"
+    "Directory.md"
   ]
 }
