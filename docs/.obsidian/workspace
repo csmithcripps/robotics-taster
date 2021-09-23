@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Controlling the Robot.md",
+            "file": "Robot_Code.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Controlling the Robot.md",
+                "file": "Robot_Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "909511bb7f28adc0",
   "lastOpenFiles": [
+    "Controlling the Robot.md",
+    "The Task.md",
+    "Matlab Refresher.md",
+    "Map Assisted Localisation and Navigation.md",
     "Parts/Controlling the Robot.md",
     "Directory.md",
     "Parts/9. Map Assisted Localisation and Navigation.md",
     "Parts/5. Setup.md",
     "Parts/3. Matlab Refresher.md",
-    "Parts/4. Controlling the Robot.md",
-    "Parts/2. The Task.md",
-    "Parts/Attachments/Pasted image 20210921024101.png",
-    "Parts/Attachments/Pasted image 20210920074829.png",
-    "Parts/Attachments/Pasted image 20210920074815.png"
+    "Parts/4. Controlling the Robot.md"
   ]
 }

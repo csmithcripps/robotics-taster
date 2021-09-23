@@ -4,9 +4,9 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - "Controlling the Robot.md"
-  - "Directory.md"
-  - "index.md"
-  - "Map Assisted Localisation and Navigation.md"
-  - "Matlab Refresher.md"
-  - "The Task.md"
+  - Robot_Code.md
+  - Directory.md
+  - index.md
+  - Final_Code.md
+  - Matlab_Refresher.md
+  - The_Task.md
