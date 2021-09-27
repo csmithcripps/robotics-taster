@@ -92,7 +92,7 @@ classdef PiBot < handle
   
             s = sprintf('PenguinPi robot at %s', self.robot);
             if ~isempty(self.localizer)
-                s = strcat(s, sprintf(', with localizer at %s', self.localizer);
+                s = strcat(s, sprintf(', with localizer at %s', self.localizer));
             end
         end
 
@@ -436,6 +436,12 @@ classdef PiBot < handle
             end
         end
         
+        
+        function stat = getEncoder(self)
+            json = webread(self.robot+"/robot/set/velocity");
+            structs = jsondecode(json);
+            stat = [structs.encoder.left structs.encoder.right];
+        end 
     end
 end
 

@@ -1,6 +1,6 @@
 % square
 
-url = "http://10.0.0.20";
+url = '172.19.232.167';
 robot = PiBot(url)
 
 % 5.33V mm/sec

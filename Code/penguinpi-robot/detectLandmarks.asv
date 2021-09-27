@@ -1,0 +1,17 @@
+function landmarks = detectLandmarks(img)
+
+    tagFamily = ["tag36h11","tagCircle21h7","tagCircle49h12","tagCustom48h12","tagStandard41h12"];
+    
+   
+    
+    [id,loc,detectedFamily] = readAprilTag(img,tagFamily);
+    
+    for i = 1:length(id)
+        landmarkID = find(IDList == id(i));
+        height = max(loc(:,2,i)) - min(loc(:,2,i));
+        xPx = mean(l
+    end
+    
+    
+
+end
