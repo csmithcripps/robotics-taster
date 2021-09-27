@@ -1,11 +1,5 @@
 # Matlab
 
-|               **Quick Links**            |
-|         [The Task](The_Task.md)         |
-| [Matlab Refresher](Matlab_Refresher.md) |
-|       [Robot Code](Robot_Code.md)       |
-|       [Final Code](Final_Code.md)       |
-
 ---
 
 ## A simple Matlab Script
@@ -49,3 +43,14 @@ c = add_numbers(a,b)
 - Could add them to the Matlab Libraries folder 
 - ``` addpath("PATH TO FOLDER")```
 	- This can be a relative path or absolute
+
+---
+
+| **Quick Links**                         |
+| [The Task](The_Task.md)                 |
+| [Matlab Refresher](Matlab_Refresher.md) |
+| [Robot Code](Robot_Code.md)             |
+| [Setup](Setup.md)                       |
+| [Prediction](Prediction.md)             |
+| [Update](Update.md)                     | 
+| [Final Code](Final_Code.md)             |

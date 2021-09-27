@@ -1,12 +1,4 @@
 # The Task
-
-|               **Quick Links**            |
-|         [The Task](The_Task.md)         |
-| [Matlab Refresher](Matlab_Refresher.md) |
-|       [Robot Code](Robot_Code.md)       |
-|       [Final Code](Final_Code.md)       |
-
-
 ---
 
 ## Context
@@ -53,4 +45,14 @@ Two important variables
 ### SLAM Simplified
  - Simplified using a known map
  - Map Assisted Localisation and Navigation
+ 
 ---
+
+| **Quick Links**                         |
+| [The Task](The_Task.md)                 |
+| [Matlab Refresher](Matlab_Refresher.md) |
+| [Robot Code](Robot_Code.md)             |
+| [Setup](Setup.md)                       |
+| [Prediction](Prediction.md)             |
+| [Update](Update.md)                     | 
+| [Final Code](Final_Code.md)             |

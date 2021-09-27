@@ -1,42 +1,22 @@
-# Controlling the Robot
----
+# Update
 
-## Connecting
-
-```matlab
-pb = PiBot('192.168.1.141');
-```
+Walking with your eyes open.
+- External sensors - Vision
+- Using AprilTags as landmarks
 
 ---
 
-## Motor Control
-
 ```matlab
-pb.setMotorSpeeds(0,0);
-```
+img = pb.getImage();
+landmarks = detectLandmarks(img);
 
----
+[mu, Sigma] = update(mu, Sigma, landmarks, map);
 
-## Camera Data
-
-```matlab
-img = pb.getImageFromCamera();
-```
-
----
-
-## Encoder Data
-
-```matlab
-ticks = pb.getMotorTicks();
-```
-
----
-
-## LED Array
-```matlab
-v = 0b0000000000000001 % Light up only the last LED
-pb.setLEDArray(v)
+% Show current robot vision
+hold on 
+img = insertMarker(img,landmarks(:, 3:4));
+imshow(img)
+drawnow
 ```
 
 ---

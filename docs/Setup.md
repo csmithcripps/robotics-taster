@@ -1,6 +1,34 @@
-# Map Assisted Localisation and Navigation
+# Setup
+
 ---
 
+## Initial Variables
+
+
+$$
+\mu = \begin{bmatrix}x\\y\\\sigma\\M1_x\\M1_y\\M2_x\\M2_y\\M3_x\\M3_y\end{bmatrix} = \begin{bmatrix}0\\0\\0\\100\\200\\70\\170\\130\\170\end{bmatrix}\newline
+$$
+$$
+\Sigma = \begin{bmatrix}
+		0 & 0 & 0 & 0 & 0 & 0\\ 
+		0 & 0 & 0 & 0 & 0 & 0\\
+		0 & 0 & 0 & 0 & 0 & 0\\
+		0 & 0 & 0 & \infty & 0 & 0\\
+		0 & 0 & 0 & 0 & \infty & 0\\
+		0 & 0 & 0 & 0 & 0 & \infty\\
+		
+		\end{bmatrix} 
+
+$$
+$$
+
+Goal = [100, 170]
+
+$$
+
+---
+
+### Code
 ```matlab
 clear variables
 close all
@@ -33,44 +61,19 @@ Sigma = diag([0.001 0.001 1*pi/180]).^2;
 prevEncoder = [0 0];
 r = sqrt(0.5^2 + 0.5^2);
 
-while (r>0.5)
-    %% Predict  
-    % Update Encoder   
-    encoder = pb.getEncoder; 
-    dTicks = encoder - prevEncoder;
-    prevEncoder = encoder;
-    
-    [mu,Sigma] = predict(mu,Sigma,dTicks);
-
-    %% Update
-	img = pb.getImage();
-	landmarks = detectLandmarks(img);
-    
-	[mu, Sigma] = update(mu, Sigma, landmarks, map);
-    
-    % Show current robot vision
-    hold on 
-    img = insertMarker(img,landmarks(:, 3:4));
-    imshow(img)
-    drawnow
-
-    %% Control Robot
-    % Drive toward goal
-    vel = controlPoint(mu,goal, Kh, Kv);  % compute the wheel speeds given the current configuration
-    pb.setVelocity(vel)
-    
-    r = sqrt((goal(1)-mu(1))^2 + (goal(2)-mu(2))^2);
+while r < 0.25
+	% Prediction
+	
+	% Update
+	
+	% Control
+	
 end
-    
 pb.stop
-
-%% End Program
-disp('Press <Enter> to exit')
-pause
-close all
 ```
 
 ---
+
 | **Quick Links**                         |
 | [The Task](The_Task.md)                 |
 | [Matlab Refresher](Matlab_Refresher.md) |
