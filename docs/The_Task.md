@@ -1,12 +1,18 @@
 # The Task
 
-[Directory](Directory.md)
+|               **Quick Links**            |
+|         [The Task](The_Task.md)         |
+| [Matlab Refresher](Matlab_Refresher.md) |
+|       [Robot Code](Robot_Code.md)       |
+|       [Final Code](Final_Code.md)       |
+
 
 ---
 
 ## Context
-Navigate to the centre of a set of markers
-**""CONTEXT""**
+You've been tasked to give a rover stranded on mars the means to navigate back to it's extraction point.
+Markers have been dropped in the environment in the eight major directions. The extraction point is at the center of these markers.
+
 
 ---
 
@@ -39,11 +45,12 @@ Two important variables
 ## Steps
 
 1.  Prediction
-	- Use the previous information to predict the robots position
-2.  Sensing
-	- Gather information from sensors
-3.  Update
-	- Combine the prediction and sensor information
-	- We do this because sensors aren't perfect
+	- Using internal sensors to guess how much the robot has moved
+2.  Update
+	- Using sensors to update our assumptions about ourselves and our environment
+3.  Control
 
+### SLAM Simplified
+ - Simplified using a known map
+ - Map Assisted Localisation and Navigation
 ---

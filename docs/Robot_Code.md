@@ -1,6 +1,11 @@
 # Controlling the Robot
 
-[Directory](Directory.md)
+|               **Quick Links**            |
+|         [The Task](The_Task.md)         |
+| [Matlab Refresher](Matlab_Refresher.md) |
+|       [Robot Code](Robot_Code.md)       |
+|       [Final Code](Final_Code.md)       |
+
 
 ---
 
@@ -35,3 +40,9 @@ ticks = pb.getMotorTicks();
 ```
 
 ---
+
+## LED Array
+```matlab
+v = 0b0000000000000001 % Light up only the last LED
+pb.setLEDArray(v)
+```
