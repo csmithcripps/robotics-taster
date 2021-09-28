@@ -2,18 +2,18 @@ clear variables
 close all
 addpath("./penguinpi-robot")
 %% Constants
-Kh = 0.4;
-Kv = 0.2;
+Kh = 0.2;
+Kv = 0.05;
 
 %       x,      y
-map = [0.1 ,    0.1;    % Landmark 1
+map = [0 ,    0;    % Landmark 1
        1,       0;      % Landmark 2
-       1.9,     0.1;    % Landmark 3
+       2,     0;    % Landmark 3
        0,       1;      % Landmark 4
        2,       1;      % Landmark 5
-       0.1,     1.9;    % Landmark 6
+       0,     2;    % Landmark 6
        1,       2;      % Landmark 7
-       1.9,     1.9];   % Landmark 8
+       2,     2];   % Landmark 8
    
 goal = [1, 1];
         
@@ -29,7 +29,7 @@ Sigma = diag([0.001 0.001 1*pi/180]).^2;
 prevEncoder = [0 0];
 r = sqrt(0.5^2 + 0.5^2);
 
-while (r>0.5)
+while (r>0.1)
     %% Predict  
     % Update Encoder   
     encoder = pb.getEncoder; 
@@ -43,12 +43,6 @@ while (r>0.5)
 	landmarks = detectLandmarks(img);
     
 	[mu, Sigma] = update(mu, Sigma, landmarks, map);
-    
-    % Show current robot vision
-    hold on 
-    img = insertMarker(img,landmarks(:, 3:4));
-    imshow(img)
-    drawnow
 
     %% Control Robot
     % Drive toward goal
@@ -56,6 +50,11 @@ while (r>0.5)
     pb.setVelocity(vel)
     
     r = sqrt((goal(1)-mu(1))^2 + (goal(2)-mu(2))^2);
+    pause(0.05)
+    pb.stop
+    hold on
+    plot_map(mu, map, img)
+    drawnow
 end
     
 pb.stop

@@ -11,7 +11,9 @@ function [x,S] = update_step(landmarkID,z,x,S,map, Q)
     if nargin < 6
         Q = diag([0.08 2*pi/180]).^2;
     end
-    
+    if landmarkID == 0
+        return
+    end
     
     i = landmarkID;
     

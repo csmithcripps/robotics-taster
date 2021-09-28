@@ -11,7 +11,7 @@ function [xt,S] = predict(xt,S,dTicks,R)
     
     dq = encoderToPose(dTicks, xt);
     if nargin < 4
-        R = diag([0.5 50*pi/180]).^2;
+        R = diag([1 90*pi/180]).^2;
     end
     xt = xt + dq;
     xt(3) = wrapToPi(xt(3));
