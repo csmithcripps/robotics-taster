@@ -10,7 +10,7 @@ Markers have been dropped in the environment in the eight major directions. The 
 
 ## Map
 
-![Pasted image 20210921024101](Attachments/Pasted%20image%2020210921024101.png)
+Apriltags on the corners and centers of a set of 2x2 walls
 
 ---
 
